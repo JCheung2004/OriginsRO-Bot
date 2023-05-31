@@ -15,16 +15,7 @@ const fridayGifs = [
 ];
 
 const anhReplies = [
-  "I just wanted to tell you that, you are  special and I appreciate you =). Before you ask otherwise, this a message that is being sent uniquely to you <3",
-  "I hope you're hydrated Anh",
-  "I hope you're keeping warm and safe",
-  "I hope you're well fed 8)",
-  "Your cup of tea is coming in a few months, just in time for summer!",
-  "BOBA!? 8)",
-  "YOU HAVEN'T HAD NUGGIES IN A LONG TIME, DO YOU WANT SOME?",
-  "If you execute another !friday, you might get another goodie 8)",
-  "I miss you",
-  "I wonder if you're executing this whilst I'm asleep or awake? :thinking:",
+  "I hope you've hydrated",
 ];
 module.exports = {
   name: "friday",
