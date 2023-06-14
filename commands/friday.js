@@ -14,7 +14,7 @@ const fridayGifs = [
   "https://cdn.discordapp.com/attachments/913036617348943923/944292313553862747/unknown.png"
 ];
 
-const anhReplies = [
+const specialReplies = [
   "I hope you've hydrated",
 ];
 module.exports = {
@@ -22,10 +22,9 @@ module.exports = {
   description: "this is a ping command!",
   execute(message, args) {
     const Response = fridayGifs[Math.floor(Math.random() * fridayGifs.length)];
-    const DMResponse = anhReplies[Math.floor(Math.random() * anhReplies.length)];
+    const DMResponse = anhReplies[Math.floor(Math.random() * specialReplies.length)];
     if (
-      message.author.username === "Elone" &&
-      message.author.discriminator === "6117"
+      message.author.username === "Oronyx" 
     ) {
       message.author.send(DMResponse);
       message.channel.send(Response);
